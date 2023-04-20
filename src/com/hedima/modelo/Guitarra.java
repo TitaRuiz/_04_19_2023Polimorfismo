@@ -1,6 +1,8 @@
 package com.hedima.modelo;
 
-public class Guitarra extends InstrumentoMusical{
+import com.hedima.modelo.InstrumentoMusical;
+
+public class Guitarra extends InstrumentoMusical {
     private String tipoCuerdas;
     @Override
     public String emitirSonido() {

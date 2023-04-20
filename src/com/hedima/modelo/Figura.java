@@ -1,9 +1,10 @@
 package com.hedima.modelo;
 
-public class Figura {
+public abstract class Figura {
     private int x;
     private int y;
 
+    public abstract double calcularArea();
     public String mostrarPosicion(){
         return "(" + x + "," + y + ")";
     }

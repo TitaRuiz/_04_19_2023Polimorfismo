@@ -3,6 +3,7 @@ package com.hedima.modelo;
 public class Cuadrado extends Figura{
     private double lado;
 
+    @Override
     public double calcularArea(){
         return  Math.pow(lado,2);
     }
